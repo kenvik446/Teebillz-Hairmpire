@@ -2,16 +2,6 @@
 
 Teebillz Hairmpire is a dynamic and responsive website designed for a hair salon. The website allows users to view the services offered, browse through a gallery of recent work, and book appointments seamlessly online. This project aims to provide a user-friendly interface that makes it easy for customers to explore services and connect with the salon.
 
-**Table of Contents**
-
-Overview
-Features
-Technologies Used
-Installation
-Usage
-Responsive Design
-License
-
 **Overview**
 
 Teebillz Hairmpire is designed to give the salon a professional online presence. The website is built to ensure users have an engaging and easy experience when exploring the salon's services and booking their appointments. It has a visually appealing interface, a gallery showcasing the salon's work, and an integrated appointment booking system.
