@@ -1,0 +1,50 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <link rel="preload" href="https://assets.calendly.com/assets/external/widget.js" as="script">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2-0/dist/ionicons/ionicons.esm.js"></script>
+    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+
+    <title>Book an Appointment - Teebillz Hairmpire</title>
+    <!-- Calendly CSS and Script -->
+    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <a href="index.html"><img class="logo" src="/img/logo.png" alt="Teebillz Hairmpire Logo"></a>
+        <p class="title">Teebillz Hairmpire</p>
+
+        <!-- Hamburger Menu Button -->
+         <div class="menu-toggle" id="menu-toggle">
+            <ion-icon id="menu-icon" name="menu-outline"></ion-icon>
+         </div>
+
+         <nav class="main-nav" id="main-nav">
+            <ul class="main-nav-list">
+                <li><a class="main-nav-link" href="index.html">Home</a></li>
+                <li><a class="main-nav-link" href="services.html">Gallery</a></li>
+                <li><a class="main-nav-link" href="about.html">About Us</a></li>
+                <li class="nav-cta-wrapper"><a class="main-nav-link nav-cta" href="appointment.html">Book Your Appointment</a></li>
+            </ul>
+        </nav>
+     </header>
+
+    <!-- Calendly Embedded Section -->
+    <main>
+        <section class="section-appointment">
+            <div class="calendly-inline-widget" data-url="https://calendly.com/teebillzhairmpire-o2hp/5hrs" style="min-width:320px;height:630px;"></div>
+        </section>
+    </main>
+</body>
+</html>
