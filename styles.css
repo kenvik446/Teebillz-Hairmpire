@@ -411,7 +411,8 @@ body.calendly-popup-open {
     gap: 1rem;
 }
 
-.Instagram{
+.Instagram,
+.Tiktok{
     padding: 1.2rem;
     background-color: #fff;
     border: 1px solid #d2a436;
@@ -433,7 +434,8 @@ body.calendly-popup-open {
     justify-content: center;
 }
 
-.Instagram:hover{
+.Instagram:hover,
+.Tiktok:hover{
     background-color: #f9eecb;
     border-color: #fff;
 }
@@ -458,7 +460,8 @@ body.calendly-popup-open {
         margin-bottom: 1.6rem;
     }
 
-    .Instagram {
+    .Instagram,
+    .Tiktok{
         padding: 1.2rem;
         flex-direction: column; /* Stack icon and text vertically on smaller screens */
     }
